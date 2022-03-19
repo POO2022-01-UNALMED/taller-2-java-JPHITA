@@ -33,9 +33,11 @@ public class Auto {
 		}
 		
 		for(int i = 0; i < this.asientos.length; i++) {
-			if (this.registro != this.asientos[i].registro) {
-				original = false;
-				break;
+			if(this.asientos[i] != null){
+				if (this.registro != this.asientos[i].registro) {
+					original = false;
+					break;
+				}
 			}
 		}
 		
