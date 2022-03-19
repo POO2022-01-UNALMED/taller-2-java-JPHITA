@@ -42,9 +42,9 @@ public class Auto {
 		}
 		
 		if (original) {
-			return "Las piezas no son originales";
-		} else {
 			return "Auto original";
+		} else {
+			return "Las piezas no son originales";
 		}
 	}
 	
